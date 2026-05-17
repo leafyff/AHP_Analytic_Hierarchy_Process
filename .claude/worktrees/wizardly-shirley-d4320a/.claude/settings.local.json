@@ -1,0 +1,23 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(git add *)",
+      "Bash(git commit -m ' *)",
+      "Bash(git push *)",
+      "PowerShell(gh --version)",
+      "PowerShell(Get-Command gh -ErrorAction SilentlyContinue; Get-ChildItem \"C:\\\\Program Files\\\\GitHub CLI\" -ErrorAction SilentlyContinue; Get-ChildItem \"$env:LOCALAPPDATA\\\\GitHubCLI\" -ErrorAction SilentlyContinue; where.exe gh 2>$null)",
+      "Bash(ls 'C:\\\\Users\\\\Sasha\\\\Desktop\\\\AHP_Analytic_Hierarchy_Process\\\\.claude\\\\worktrees\\\\wizardly-shirley-d4320a' && echo \"---\" && ls 'C:\\\\Users\\\\Sasha\\\\Desktop\\\\AHP_Analytic_Hierarchy_Process')",
+      "Bash(git -C 'C:\\\\Users\\\\Sasha\\\\Desktop\\\\AHP_Analytic_Hierarchy_Process' status)",
+      "Bash(git -C 'C:\\\\Users\\\\Sasha\\\\Desktop\\\\AHP_Analytic_Hierarchy_Process' branch -a)",
+      "Bash(git -C 'C:\\\\Users\\\\Sasha\\\\Desktop\\\\AHP_Analytic_Hierarchy_Process' log --oneline origin/main..main)",
+      "Bash(git -C 'C:\\\\Users\\\\Sasha\\\\Desktop\\\\AHP_Analytic_Hierarchy_Process' log --oneline --all -10)",
+      "Bash(git -C 'C:\\\\Users\\\\Sasha\\\\Desktop\\\\AHP_Analytic_Hierarchy_Process' diff main claude/wizardly-shirley-d4320a --stat)",
+      "Bash(git -C 'C:\\\\Users\\\\Sasha\\\\Desktop\\\\AHP_Analytic_Hierarchy_Process' branch -d claude/wizardly-shirley-d4320a)",
+      "Bash(git -C 'C:\\\\Users\\\\Sasha\\\\Desktop\\\\AHP_Analytic_Hierarchy_Process' push origin --delete claude/wizardly-shirley-d4320a)",
+      "Bash(git -C 'C:\\\\Users\\\\Sasha\\\\Desktop\\\\AHP_Analytic_Hierarchy_Process' fetch --prune origin)",
+      "Bash(git -C 'C:\\\\Users\\\\Sasha\\\\Desktop\\\\AHP_Analytic_Hierarchy_Process' log --oneline --all --graph -10)",
+      "Bash(git -C 'C:\\\\Users\\\\Sasha\\\\Desktop\\\\AHP_Analytic_Hierarchy_Process' worktree prune)",
+      "Bash(git -C 'C:\\\\Users\\\\Sasha\\\\Desktop\\\\AHP_Analytic_Hierarchy_Process' worktree list)"
+    ]
+  }
+}
