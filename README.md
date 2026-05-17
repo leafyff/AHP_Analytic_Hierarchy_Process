@@ -124,12 +124,12 @@ $$
 Global priority of alternative $A_i$ is the weighted sum of its local priorities across all criteria:
 
 $$
-w_i^{\mathrm{глоб}} = \sum_{j=1}^{n} w_{C_j} \cdot w_{ij}, \qquad i = \overline{1, m},
+w_i^{\mathrm{glob}} = \sum_{j=1}^{n} w_{C_j} \cdot w_{ij}, \qquad i = \overline{1, m},
 $$
 
 where $w_{C_j}$ is the global weight of criterion $C_j$ and $w_{ij}$ is the local weight of alternative $A_i$ under criterion $C_j$.
 
-The final ranking is obtained by sorting alternatives by $w_i^{\mathrm{глоб}}$ in descending order; the largest value identifies the best alternative.
+The final ranking is obtained by sorting alternatives by $w_i^{\mathrm{glob}}$ in descending order; the largest value identifies the best alternative.
 
 ---
 
@@ -148,3 +148,8 @@ The final ranking is obtained by sorting alternatives by $w_i^{\mathrm{глоб}
 ```bash
 python main.py
 ```
+
+## Your input
+
+To change the input, change the parameters in main function.
+CLI is TBD.
